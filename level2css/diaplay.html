@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+</head>
+<style>
+    #d1{
+        background-color: pink;
+        display: block;
+    }
+    #d2{
+        background-color: aqua;
+        display: inline;
+    }
+
+    #red{
+        background-color: red;
+        height:100px;
+        width:100px;
+        margin: 25px;
+        padding:25px;
+        display: inline-block;
+    }
+    #green{
+        background-color: green;
+        height:100px;
+        width:100px;
+        margin: 25px;
+        padding:25px;
+        display: inline-block;
+    }
+    #yellow{
+        background-color: yellow;
+        height:100px;
+        width:100px;
+        margin: 25px;
+        padding:25px;
+        display: inline-block;
+    }
+</style>
+<body>
+    <div id="d1">
+        This is div 1.
+    </div>
+    <div id="d2">
+        This is div 2.
+    </div>
+    <button>click</button>
+
+    <hr>
+
+    <div id="red">This is red</div>
+    <div id="green">This is green</div>
+    <div id="yellow">This is yellow</div>
+
+    <hr>
+    <p>Display None</p>
+    <div id="red">This is red</div>
+    <div id="green" style="display: none;">This is green</div>
+    <div id="yellow">This is yellow</div>
+
+    <hr>
+    <p>Visibility hidden</p>
+    <div id="red">This is red</div>
+    <div id="green" style="visibility: hidden;">This is green</div>
+    <div id="yellow">This is yellow</div>
+</body>
+</html>
